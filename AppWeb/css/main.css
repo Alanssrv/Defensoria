@@ -1,0 +1,323 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+    
+}
+body {
+
+   width: 100%;
+   height: 100%;
+   background-color: #F5F5DC;
+}
+ header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #2E8B57;
+    font-family: "Courier New";
+    
+ }
+ .teste{
+    margin: 0 auto;
+    width: 93%;
+    
+    z-index: 1;
+    
+ }
+ .teste nav a{
+   padding: 20px;
+   display: block;
+   text-decoration: none;
+   text-align: center;
+   color: transparent;
+   font-family: "Arial";
+     
+}
+ .logo img {
+   max-width:370px;
+   max-height:350px;
+   width: auto;
+   height: auto;
+}
+
+main{
+    position: absolute;
+    margin: 0 auto;
+    width: 93%;
+}
+
+main div.pesquisar{
+    width: 100%;
+    float: right;
+}
+
+main div.pesquisar form{
+   
+    height: 100px;
+    width: 300px;
+    margin:10px 900px;
+}
+main div.pesquisar form #pesquisa{
+    width:200px;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    font-family: "Arial";
+    float: left;
+    
+}
+
+main div.pesquisar form #nome{
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+    padding: 3px;
+    background-color: #2E8B57;
+}
+main div.pesquisar form #nome:hover{
+    background-color:  #CDC99B;
+}
+.nemo img {
+   max-width:200px;
+   max-height:150px;
+   width: auto;
+   height: auto;
+}
+.nemo{
+   padding: 10px;
+   float: right;
+   
+}
+
+
+main div.altSenha{
+    width: 100%;
+    float: center;
+}
+main div.altSenha form{
+   
+    height: 100px;
+    width: 300px;
+    margin:10px 900px;
+    align-content: center;
+}
+main div.altSenha form #senhaAtual{
+    width:200px;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    font-family: "Arial";
+    float: center;
+    text-align: center;
+}
+
+main div.altSenha form #btn{
+    width:200px;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    font-family: "Arial";
+    float: center;
+    text-align: center;
+}
+
+main div.altSenha form #novaSenha{
+    width:200px;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    font-family: "Arial";
+    float: center;
+    text-align: center;
+}
+
+
+main div.principal{
+    width: 100%;
+    text-align: center;
+   
+}
+main div.principal #lista{
+    font-family: "Arial";
+    float: right;
+    width: 70%;
+    
+    
+    
+}
+
+main div.principal #lista ul{
+    border-bottom:1px solid #CDC99B;
+}
+main div.principal #lista ul li{
+    margin-bottom: 5px;
+}
+
+main div.principal #lista ul li a{
+    text-decoration: none;
+    color: #2E8B57;
+}
+
+main div.principal #lista a{
+    text-decoration: none;
+    color: #2E8B57;
+    margin-left: 3px;
+}
+
+main button{
+    border: none;
+    background: transparent;
+}
+main ul{
+    
+}
+main li{
+   display: inline-block;
+   
+    
+}
+main div.principal #men{
+    
+    margin-top: 65px;
+    border-right:1px solid #CDC99B;
+    font-family: "Arial";
+    float: left;
+    width: 29%;
+    
+}
+main div.principal #men button{
+    border-bottom:1px solid #CDC99B;
+}
+
+ .logo{
+   
+   padding: 5px;
+   float: left;
+   width: 35%;
+   
+ }
+header li{
+   display: inline-block;
+   float: left;
+   position: static;
+   
+}
+.teste nav li a{
+    color: #F5F5DC;
+    
+}
+li a:hover{
+   background: #0B6138;
+   text-decoration: none;
+   color: #F5F5DC;
+}
+
+nav{
+   width: auto;
+   float: right;
+    
+   }
+
+
+.centro{
+   width: 100%;   
+}
+
+#pesquisa{
+    float: right;
+}
+
+footer{
+   position: absolute;
+   background-color: #2E8B57;
+   width: 100%;  
+   margin-top: 37%;
+   height: 100px;
+   
+   
+}
+label[for="bt_menu"]{
+    position: relative;
+    background-color: #2E8B57;
+    float:right;
+    color: #F5F5DC;
+    text-align: center;
+    font-family: "Courier New";
+    display: block;
+    font-size: 30px;
+    margin-top: -300px;
+    width: 50px;
+    height: 50px;
+    padding-top: 7px;
+    cursor: pointer;
+    
+}
+#bt_menu{
+    float: right;
+    position: static;
+    display: block;
+    margin-top: -300px;
+    margin-right: 0px;
+}
+
+
+
+@media (max-width:900px){
+    label[for="bt_menu"]{
+        display: block;
+        margin-top: 43px;
+        transition: all .4s;
+        margin-right: 32px;
+        z-index: 2;
+        background-color: transparent;
+    }
+   
+    #bt_menu:checked ~ * nav{
+        
+        margin-top: 86px;
+        margin-right: 0px;
+        
+    }
+    #bt_menu{
+        margin-top: 100px;
+        display: none;
+    }
+    li{
+        display: block;
+        float: right;
+        background-color: transparent;
+        border: solid 1px #2E8B57;
+        margin-top: -1px;
+    }
+   
+    header main nav a{
+        display: block;
+        float: right;
+        color: #2E8B57;
+    }
+    nav{
+        z-index: -3;
+        margin-top: -300px;
+        max-width: 100px;
+        margin-left: -100%;
+        transition: all .4s;
+        
+        
+    }
+    
+}
+
+
+
+
+ 
